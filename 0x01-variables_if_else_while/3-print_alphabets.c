@@ -7,7 +7,7 @@
  *
  * Return: Always (Success)
  */
-int main(void)O
+int main(void)
 {
 	char c;
 
