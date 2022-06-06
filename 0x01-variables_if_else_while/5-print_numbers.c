@@ -1,23 +1,21 @@
-
 #include <stdio.h>
 
 
 /**
- * main - Prints the numbers from 0-9
+ * main - Prints numbers from the interval 0-9
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
-       char n;
+	char n;
 
-       for (n = '0'; n <= '9'; n++)
-       {
-	       putchar(n);
-       }
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
 
-       putchar('\n');
+	putchar('\n');
 
-       return (0);
+	return (0);
 }
-
