@@ -6,7 +6,6 @@
  * @n: the number to be checked
  *
  * Return: 1,-1 or 0 depending on sign
- *
  */
 int print_sign(int n)
 {
@@ -25,3 +24,4 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+}
