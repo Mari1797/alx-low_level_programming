@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Prints the sum of all multiples 0f 3 & 5 to 1024
