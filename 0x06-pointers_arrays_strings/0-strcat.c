@@ -6,7 +6,7 @@
  * @dest: first parameter
  * @src: second parameter
  *
- * Return: A string
+ * Return: A pointer resulting to a string
  */
 char *_strcat(char *dest, char *src)
 {
@@ -22,6 +22,6 @@ char *_strcat(char *dest, char *src)
 		len++;
 	}
 
-	dest[len] = src[i];
+	dest[len] = '\0';
 	return (dest);
 }
