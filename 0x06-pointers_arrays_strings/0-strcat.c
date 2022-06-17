@@ -10,7 +10,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int len = 0;
-	int len = i;
+	int i = 0;
 
 	while (dest[len])
 		len++;
