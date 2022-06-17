@@ -3,9 +3,8 @@
 
 /**
  * _strcat - Contenate 2 strings
- * @dest: first parameter
- * @src: second parameter
- *
+ * @dest: The destination string
+ * @src: The source string*
  * Return: A pointer resulting to a string
  */
 char *_strcat(char *dest, char *src)
