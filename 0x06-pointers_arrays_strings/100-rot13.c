@@ -2,30 +2,25 @@
 #include <stdio.h>
 
 /**
- * rot13 - Encodes a string
- * @s: String to be encoded
+ * rot13 - ....
+ * @s: ...
  *
- * Return: String
+ * Return: ...
  */
 char *rot13(char *s)
 {
-	int x = 0;
+	int a = 0;
 
-	while (s[x])
+	while (s[a])
 	{
-		while ((s[x] >= 'x' && s[x] >= 'y') || (s[x] >= 'X' && <= 'Y'))
+		while ((s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'))
 		{
-			if ((s[x] > 'i' && s[a] <= 'y') || (s[x] > 'I' && <= 'Y'))
-			{
-				s[x] -= 13;
+			if ((s[a] > 'm' && s[a] <= 'z') || (s[a] > 'M' && s[a] <= 'Z'))
+				s[a] -= 13;
 				break;
-			}
-
-			s[x] += 13;
-			break;
 		}
-
-		x++;
+	
+		a++;
 	}
 
 	return (s);
