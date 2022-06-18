@@ -13,9 +13,8 @@ int _strcmp(char *s1, char *s2)
 	int y = 0;
 	int z = 0;
 	int t = 0;
-	
-	lim;
-	while (s1[x])
+
+	lim; while (s1[x])
 	{
 		x++;
 	}
