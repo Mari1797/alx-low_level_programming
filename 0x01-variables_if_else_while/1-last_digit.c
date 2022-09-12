@@ -21,11 +21,11 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("id of %d is %d and id is 0\n", n, ld);
+		printf("ld of %d is %d and id is 0\n", n, ld);
 	}
 	else if (n < 6 && n != 0)
 	{
-		printf("Id of %d is %d and id is less than 6 and not 0\n", n, id);
+		printf("ld of %d is %d and id is less than 6 and not 0\n", n, ld);
 	}
 
 	return (0);
