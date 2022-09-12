@@ -23,7 +23,7 @@ int main(void)
 	{
 		printf("ld of %d is %d and id is 0\n", n, ld);
 	}
-	else if (ld < 6 && n != 0)
+	else if (ld < 6 && ld != 0)
 	{
 		printf("ld of %d is %d and id is less than 6 and not 0\n", n, ld);
 	}
