@@ -1,31 +1,31 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
- * main - assign a random numbewr to a variable n
+ * main - Assign a random number to a random variable n
  *
- * return: always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, lastd;
+	int n;
+	int ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastd = n % 10;
-
-	if (lastd > 5)
+	ld = n % 10;
+	if (n > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
+		printf("ld of %d is %d and id greater than 5\n", n, ld);
 	}
-	else if (lastd == 0)
+	else if (n == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastd);
+		printf("id of %d is %d and id is 0\n", n, ld);
 	}
-	else if (lastd < 6 && lastd !=0)
+	else if (n < 6 && n != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+		printf("Id of %d is %d and id is less than 6 and not 0\n", n, id);
 	}
 
 	return (0);
