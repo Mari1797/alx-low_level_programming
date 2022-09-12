@@ -2,8 +2,7 @@
 
 
 /**
- * main - Prints base 16 numbers in lowercase
- *
+ * main - Prints base 10 digits,followed by a  new line*
  * Return: Always (Success)
  */
 int main(void)
@@ -11,16 +10,9 @@ int main(void)
 	char c;
 
 	for (c = '0'; c <= '9'; c++)
-	{
-		putchar(c);
-	}
+		printf("%d", c);
 
-	for (c = 'a'; c <= 'f'; c++)
-	{
-		putchar("%d", c);
-	}
-
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
