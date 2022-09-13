@@ -5,7 +5,7 @@
  * @c: Character to be checked
  * Return: 1 if c is a lowecase character and 0 if otherwise
  */
-int_islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
