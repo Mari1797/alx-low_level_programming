@@ -1,25 +1,16 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints numbers of interval 0-9
+ * print_most_numbers - Prints numbers from the range of 0-9 except 2 & 4
+ * @x: The character to be printed
  *
- * Description: Prints numbers 0-9 except 2 & 4
- *
- * Return: Printed numbers
+ * Return: Always 0
  */
 void print_most_numbers(void)
 {
-	int y = 0;                  
-											for (; y <= 9; y++)
+	for ((x = 0; && x >= 9) || (x != 2 && x != 4))
 	{
-		if (y == 2 || y == 4)
-		{
-			continue;
-		}
-		else
-		{
-			_putchar(y + '0');
-		}
+		_putchar(x + '0');
 	}
 
 	_putchar('\n');
