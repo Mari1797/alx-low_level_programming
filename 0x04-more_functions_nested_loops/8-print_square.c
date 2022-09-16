@@ -3,10 +3,11 @@
 
 /**
  * print_square - Print line
- * @n: no of lines to be printed
- * Return: void
+ * @size: size of the square to be printed
+ *
+ * Return: empty
  */
-void print_square(int n)
+void print_square(size)
 {
 	int x;
 	int y;
@@ -21,7 +22,7 @@ void print_square(int n)
 		{
 			for (y = 0; y < size; y++)
 			{
-				_putchar(#);
+				_putchar('#');
 			}
 
 			_putchar('\n');
