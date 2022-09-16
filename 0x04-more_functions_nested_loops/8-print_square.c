@@ -21,11 +21,12 @@ void print_square(int n)
 		{
 			for (y = 0; y < size; y++)
 			{
-				_putchar('#');
+				_putchar(#);
 			}
 
 			_putchar('\n');
 		}
 	}
+
 }
 
