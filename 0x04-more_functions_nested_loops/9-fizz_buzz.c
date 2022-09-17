@@ -4,7 +4,7 @@
 /**
  * main - Prints fizz,buzz and fizzbuzz depending on the multiples of (1-100)
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
