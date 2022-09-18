@@ -10,9 +10,11 @@ int main(void)
 	int c;
 
 	for (c = '0'; c <= '9'; c++)
-		printf("%d", c);
+	{
+		_putchar(c);
+	}
 
-	printf("\n");
+	_putchar('\n');
 
 	return (0);
 }
