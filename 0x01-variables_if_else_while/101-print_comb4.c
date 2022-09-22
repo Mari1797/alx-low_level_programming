@@ -23,7 +23,7 @@ int main(void)
 					putchar(b);
 					putchar(c);
 
-					if (a != 9 && c!= 7)
+					if (c != 1 && c != 2)
 					{
 						putchar(',');
 						putchar(' ');
@@ -33,7 +33,6 @@ int main(void)
 		}
 
 	}
-
 	putchar('\n');
 
 	return (0);
