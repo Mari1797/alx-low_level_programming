@@ -18,6 +18,7 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
+			}
 
 			if (x != 100 && y != 0)
 			{
