@@ -5,13 +5,13 @@ int find_sqrt(int n, int guess);
 int _sqrt_recursion(int n);
 
 /**
- * _find_sqrt - Finds the square root of the number.
+ * find_sqrt - Finds the square root of the number.
  * @n: The number whose root is to be calculated
  * @guess: Guess value
  *
  * Return: The number's square root if n has a natural square root otherwise -1
  */
-int _find_sqrt(int n, int guess)
+int find_sqrt(int n, int guess)
 {
 	if ((n / guess) == guess)
 		return (guess);
