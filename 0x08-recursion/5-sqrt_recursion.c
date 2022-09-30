@@ -13,10 +13,10 @@ int _sqrt_recursion(int n);
  */
 int find_sqrt(int n, int guess)
 {
-	if ((n / guess) == guess)
+	if ((guess * guess) == n)
 		return (guess);
 
-	else if ((n / guess) != guess)
+	else if (guess == n / 2)
 		return (-1);
 
 	else
