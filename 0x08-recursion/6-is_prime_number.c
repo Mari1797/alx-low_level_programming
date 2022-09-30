@@ -4,7 +4,7 @@
 int check_prime(int n, int no);
 
 /**
- * _prime_number - Returns 1 if the integer is a prime and 0 if otherwise
+ * is_prime_number - Returns 1 if the integer is a prime and 0 if otherwise
  * @n: The input integer
  *
  * Return: 1 if integer is a prime and 0 if otherwise
@@ -23,10 +23,10 @@ int is_prime_number(int n)
  */
 int check_prime(int n, int no)
 {
-	if (n == 0 && n == 1)
+	if (n <= 1)
 		return (-1);
 
-	else if (n % no == 0)
+	else if (n % no == 0 && no > 1)
 		return (0);
 
 	else
