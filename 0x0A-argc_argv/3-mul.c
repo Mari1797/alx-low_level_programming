@@ -15,17 +15,15 @@ int main(int argc, char *argv[])
 	int nm2 = 0;
 	int mul;
 
+	nm1 = atoi(argv[1]);
+	nm2 = atoi(argv[2]);
+
 	mul = nm1 * nm2;
 
-	if (argc == 3)
-	{
-		nm1 = atoi(argv[1]);
-		nm2 = atoi(argv[2]);
 
-		printf("%d\n", mul);
-	}
+	printf("%d\n", mul);
 
-	else if (argc != 3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 
