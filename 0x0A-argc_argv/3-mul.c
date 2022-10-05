@@ -11,8 +11,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int nm1 = 0;
-	int nm2 = 0;
+	int nm1;
+	int nm2;
 	int mul;
 
 	nm1 = atoi(argv[1]);
