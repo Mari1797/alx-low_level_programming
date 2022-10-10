@@ -11,9 +11,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int nm1;
-	int nm2;
+	int nm1 = 0;
+	int nm2 = 0;
 	int mul;
+
+	if (argc == 3)
 
 	nm1 = atoi(argv[1]);
 	nm2 = atoi(argv[2]);
@@ -23,7 +25,7 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", mul);
 
-	if (argc != 3)
+	else if (argc != 3)
 	{
 		printf("Error\n");
 

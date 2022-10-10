@@ -24,11 +24,13 @@ int is_prime_number(int n)
 int check_prime(int n, int no)
 {
 	if (n <= 1)
-		return (-1);
+		return (0);
 
 	else if (n % no == 0 && no > 1)
 		return (0);
 
-	else
-		return (check_prime(n, no + 1));
+	else if ((n / no) < no)
+		return (1);
+	
+	return (check_prime(n, no + 1));
 }
