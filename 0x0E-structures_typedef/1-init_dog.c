@@ -1,5 +1,5 @@
-#ifndef _INIT_H
-#define _INIT_H
+#include "dog.h"
+#include <stdlib.h>
 
 /**
  * init_dog - Initializes a variable struct dog
