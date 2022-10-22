@@ -7,7 +7,7 @@
  * @n: number of bytes
  * Return: pointer to be filled with memory
  */
-void *_memset(void *s, int b, unsigned int n)
+void *_memset(char *s, int b, unsigned int n)
 {
 	unsigned int index;
 	unsigned char;
